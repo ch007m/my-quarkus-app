@@ -1,5 +1,5 @@
 
-FROM maven:3.9.6 AS build
+FROM maven:3.9.9 AS build
 
 COPY pom.xml .
 COPY src .
